@@ -1,0 +1,19 @@
+.wrapper {
+  @apply flex flex-col items-center justify-center h-screen gap-4;
+
+  .tabs {
+    @apply w-[400px];
+
+    .tabList {
+      @apply grid w-full grid-cols-2;
+    }
+  }
+
+  .form {
+    @apply flex flex-col items-center justify-center gap-4 my-6;
+
+    .formItem {
+      @apply w-full px-8 py-2;
+    }
+  }
+}
